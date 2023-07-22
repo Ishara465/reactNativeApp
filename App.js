@@ -10,6 +10,8 @@ export default function App() {
   );
 }
 
+// fist change
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
