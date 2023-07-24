@@ -1,22 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import Home from "./src/screen/Home";
+import "react-native-gesture-handler";
 
-export default function App() {
+
+
+const App = ()=>{
   return (
-    <View style={styles.container}>
-      <Text>how are you</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+
+  <Home/>
+  )
 }
 
-// fist change
+export default App;
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'red',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
+
